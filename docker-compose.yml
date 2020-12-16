@@ -1,0 +1,7 @@
+services: 
+  redis:
+    container_name: BD_PROJECT_REDIS_DATABASE
+    image: redis:6.2-rc1-alpine
+    restart: always
+    ports: 
+      - 6379:6379
